@@ -31,7 +31,8 @@ autocmd FileType html,htmldjango let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango source ~/.vim/bundle/closetag/plugin/closetag.vim
 
 " Powerline configuration.
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols='fancy'
+let g:Powerline_colorscheme='skwp'
 set guifont=Monaco\ for\ Powerline:h12
 set laststatus=2
 
