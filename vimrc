@@ -43,3 +43,5 @@ set laststatus=2
 " For html files I used 2 spaces indendation.
 autocmd FileType html,xhtml,xml,htmldjango,js setlocal shiftwidth=2 tabstop=2
 
+filetype plugin on
+
