@@ -36,12 +36,21 @@ let g:Powerline_colorscheme='skwp'
 set guifont=Monaco\ for\ Powerline:h12
 set laststatus=2
 
+" Sparkup configuration.
+filetype plugin on
+
+" Color schema.
+set background=light
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+colorscheme ir_black
+
 " ---------------------------------------------------------
 " Other settings.
 " ---------------------------------------------------------
 
 " For html files I used 2 spaces indendation.
 autocmd FileType html,xhtml,xml,htmldjango,js setlocal shiftwidth=2 tabstop=2
-
-filetype plugin on
 
